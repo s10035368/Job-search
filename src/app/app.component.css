@@ -1,26 +1,30 @@
 .main-container {
     padding: 10px;
+    background-color:#5c5959;
   }
   
   .header {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    color: aqua;
   
   }
   
   .tab {
-    overflow: hidden;
-    border: 1px solid #a6a5a5;
-    background-color: white;
+   overflow: hidden;
+    border: 10px solid #242323;
+    background-color: rgb(156, 157, 158);
+    width:335px
   }
   
   .tab button {
     background-color: white;
     float: left;
-  
+    height: 75px;
+    width: 150px;
     cursor: pointer;
     padding: 15px 17px;
-    font-size: 19px;
+    font-size: 25px;
   }
   
   .tab button:hover {
@@ -28,7 +32,6 @@
   }
   
   .tab button.active {
-  
     background-color: rgb(231, 226, 226);
   }
   
@@ -41,13 +44,13 @@
   }
   
   .tablinks {
-    color: rgb(90, 46, 155);
+    color: rgb(11, 11, 12);
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 15px 17px;
-    font-size: 22px;
+    font-size: 50px;
     width: 45%;
   }
   
